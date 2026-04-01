@@ -1,7 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
 
 @import "tailwindcss";
 
 @theme {
     --font-noto: "Noto Sans Sunuwar", sans-serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-pt: "PT Sans", sans-serif;
+    --font-iceland: "Iceland", sans-serif;
+}
+
+
+.regidores-swiper {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+}
+
+.regidores-swiper .swiper-wrapper {
+    width: 100% !important;
+    box-sizing: border-box;
 }

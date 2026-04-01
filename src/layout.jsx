@@ -1,5 +1,6 @@
 import Header from "./componentes/header"
 import { Outlet } from "react-router-dom"
+import Sidebar from "./componentes/sidebar"
 
 export default function Layout({children}) {
 
@@ -9,7 +10,7 @@ export default function Layout({children}) {
       <div className=" h-screen flex">
          
         <div className="flex-1 ">
-        
+     
             <div>
               {children}
 
